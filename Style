@@ -1,0 +1,77 @@
+Create a professional landing page with css with fully functional animated layout to be intergrated to all the website land pages for a land survey app by updating this code=/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the landing page */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1f376a; /* Light blue background color */
+  color: #ffffff;
+  transition: background-color 0.5s ease;
+}
+
+header {
+  background-color: #1f376a; /* Light blue header background color */
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.feature {
+  border: 1px solid #ddd;border-radius: 12px;
+  color: #1f376a;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  background-color: #f7f7f7; /* Light gray feature background color */
+}
+
+.feature:hover {
+  background-color: #e1e1e1; /* Slightly darker gray on hover */
+  transform: translateY(-5px);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cta {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.cta-button {
+  background-color: #1f376a; /* Light blue CTA button background color */
+  color: #fff;
+  border: none;
+  /* padding: 1rem 2rem; */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color:  #fff; /* Slightly darker blue on hover */
+  color: #1f376a;
+  border: 1px solid  #1f376a;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #333;
+  color: #fff;
+}
